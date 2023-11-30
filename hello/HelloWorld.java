@@ -11,8 +11,11 @@ public class HelloWorld {
     /** Le programme commence ici */
 
     public static void main(String[] args) {
+        String message = "Hello World!";
+        message = message.toUpperCase();
+        message = message.toLowerCase();
 
-        System.out.println("Hello World!");
+        System.out.println(message);
 
     }
 
