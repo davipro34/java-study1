@@ -45,16 +45,16 @@ public class Ages {
       System.out.println(userMap.size());
       System.out.println(professions.size());
 
-    }
+  }
 
-    // Affiche une entrée d'un dictionnaire (Map)
-    static void printUser(Map.Entry<String, Integer> entryu){
-      System.out.println(entryu.getKey() + " -> " + entryu.getValue());
-    }
-    
-    
-    // Affiche une entrée d'un dictionnaire (Map)
-    static void printProfession(Map.Entry<String, String> entryp){
-      System.out.println(entryp.getKey() + " -> " + entryp.getValue());
-    }
+  // Affiche une entrée d'un dictionnaire (Map)
+  static void printUser(Map.Entry<String, Integer> entryu){
+    System.out.println(entryu.getKey() + " -> " + entryu.getValue());
+  }
+  
+  
+  // Affiche une entrée d'un dictionnaire (Map)
+  static void printProfession(Map.Entry<String, String> entryp){
+    System.out.println(entryp.getKey() + " -> " + entryp.getValue());
+  }
 }

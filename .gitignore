@@ -1,0 +1,61 @@
+# .gitignore
+
+# Ignorer les fichiers binaires
+*.bin
+*.exe
+*.o
+*.so
+
+# Ignorer les fichiers de configuration spécifiques à l'utilisateur
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorer les fichiers de build et de débogage
+[Bb]in/
+[Oo]bj/
+*.log
+*.bak
+*.cache
+*.dll
+*.pdb
+
+# Ignorer les fichiers générés par les outils
+*.nupkg
+*.userprefs
+*.pidb
+*.cache
+*.bak
+*.swp
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.pch
+*.svclog
+*.scc
+*.class
+
+# Autres fichiers et dossiers à ignorer
+.vs/
+packages/
+*.pidb
+*.userprefs
+*.suo
+*.sln.docstates
+*.bak
+*.swp
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.pch
+*.svclog
+*.scc
