@@ -7,12 +7,12 @@ public class Play {
 
     public static void main(String[] args) {
         System.out.println("Hello World");
-        displayPerimeter();
+        displayPerimeter(10, 11);
 
     }
 
-    public static void displayPerimeter() {
-      int perimeter = 2 * (4 + 6);
+    public static void displayPerimeter(int length, int width) {
+      int perimeter = 2 * (length + width);
       System.out.println(perimeter);
     }
 }
